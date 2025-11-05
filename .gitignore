@@ -1,0 +1,13 @@
+# Ignorar datasets
+# Ignora apenas os arquivos .csv dentro da pasta data, mas não a pasta em si.
+data/*.csv
+database/dataset gerado/*csv
+database/dataset gerado/*joblib
+database/dataset gerado/*json
+database/dataset inicial/*csv
+!database/*/
+# Você também pode criar uma pasta para dados brutos e ignorá-la inteira.
+# Ex: data/raw/
+# Ignorar arquivos de ambiente virtual
+.venv/
+venv/
